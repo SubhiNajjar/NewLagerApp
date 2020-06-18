@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4aN3Jb7rHQIfB/iCd9X/zfbSX2vFcaCs94qIztUb/zbk63UguP540jKGFYmUNLPV6FDOVZiZy5MCyFqnKdzEuw==",
+  "dgSpecHash": "Jaz1iPf16LJlFLGmrLt9bNAWcNZGHlAH8+wi2RJc2HLvO+BbQo/W2e2XNSQAEzNiod4UN+IPLxSOuc/1tFTP7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\ITHSTest\\LagarAppE04\\LagarAppE04\\LagarAppE04.csproj",
+  "projectFilePath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ITHS\\.nuget\\packages\\documentformat.openxml\\2.11.0\\documentformat.openxml.2.11.0.nupkg.sha512",
     "C:\\Users\\ITHS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

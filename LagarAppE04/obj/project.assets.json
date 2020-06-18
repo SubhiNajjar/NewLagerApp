@@ -5166,11 +5166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ITHS\\OneDrive\\Desktop\\ITHSTest\\LagarAppE04\\LagarAppE04\\LagarAppE04.csproj",
+      "projectUniqueName": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj",
       "projectName": "LagarAppE04",
-      "projectPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\ITHSTest\\LagarAppE04\\LagarAppE04\\LagarAppE04.csproj",
+      "projectPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj",
       "packagesPath": "C:\\Users\\ITHS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\ITHSTest\\LagarAppE04\\LagarAppE04\\obj\\",
+      "outputPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
