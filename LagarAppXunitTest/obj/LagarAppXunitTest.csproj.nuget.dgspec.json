@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppXunitTest\\LagarAppXunitTest.csproj": {}
+    "D:\\source\\repos\\Exercise5\\LagarAppXunitTest\\LagarAppXunitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj": {
+    "D:\\source\\repos\\Exercise5\\LagarAppE04\\LagarAppE04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Exercise5\\LagarAppE04\\LagarAppE04.csproj",
         "projectName": "LagarAppE04",
-        "projectPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj",
-        "packagesPath": "C:\\Users\\ITHS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\obj\\",
+        "projectPath": "D:\\source\\repos\\Exercise5\\LagarAppE04\\LagarAppE04.csproj",
+        "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Exercise5\\LagarAppE04\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ITHS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,6 +49,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
@@ -70,26 +70,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppXunitTest\\LagarAppXunitTest.csproj": {
+    "D:\\source\\repos\\Exercise5\\LagarAppXunitTest\\LagarAppXunitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppXunitTest\\LagarAppXunitTest.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Exercise5\\LagarAppXunitTest\\LagarAppXunitTest.csproj",
         "projectName": "LagarAppXunitTest",
-        "projectPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppXunitTest\\LagarAppXunitTest.csproj",
-        "packagesPath": "C:\\Users\\ITHS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppXunitTest\\obj\\",
+        "projectPath": "D:\\source\\repos\\Exercise5\\LagarAppXunitTest\\LagarAppXunitTest.csproj",
+        "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Exercise5\\LagarAppXunitTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ITHS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -101,8 +97,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj": {
-                "projectPath": "C:\\Users\\ITHS\\OneDrive\\Desktop\\GitHub\\NewLagarApp\\LagarAppE04\\LagarAppE04.csproj"
+              "D:\\source\\repos\\Exercise5\\LagarAppE04\\LagarAppE04.csproj": {
+                "projectPath": "D:\\source\\repos\\Exercise5\\LagarAppE04\\LagarAppE04.csproj"
               }
             }
           }
@@ -126,7 +122,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
@@ -148,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
