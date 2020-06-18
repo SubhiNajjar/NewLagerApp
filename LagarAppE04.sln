@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LagarAppE04", "LagarAppE04\LagarAppE04.csproj", "{F57256C5-6DD7-4657-88CA-83E937BCFD96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagarAppXunitTest", "LagarAppXunitTest\LagarAppXunitTest.csproj", "{EDF49954-9A01-4775-B95A-562F3B52142C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LagarAppXunitTest", "LagarAppXunitTest\LagarAppXunitTest.csproj", "{EDF49954-9A01-4775-B95A-562F3B52142C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F57256C5-6DD7-4657-88CA-83E937BCFD96} = {F57256C5-6DD7-4657-88CA-83E937BCFD96}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,9 +7,23 @@ namespace LagarAppE04.ProductHelper
 {
     public class Product
     {
+        private decimal _price;
         //public string Id { get; set; }
         public string Name { get; set; }
-        public decimal Price { get; set; }
+        public decimal Price
+        {
+            get { return _price; }
+            set
+            {
+                if (value < 0)
+                {
+
+                    throw new ArgumentNullException(nameof(Name));
+                }
+                _price = value;
+            }
+        }
+
         public string ManuFacturer { get; set; }
         //public List<Shop> Shops { get; set; } = new List<Shop>();
 
