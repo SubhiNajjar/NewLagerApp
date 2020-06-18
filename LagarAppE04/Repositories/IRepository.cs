@@ -9,10 +9,15 @@ namespace LagarAppE04.Repositories
     {
         IEnumerable<T> GetAll();
 
+        T GetByProductName(string productName);
 
-        // Case 3 : Option For Find
-        //Product GetByProductName(string ProductName);
+        T GetByManuFacturerName(string manufacturerName);
+
         void Insert(T product);
+
+        void Upload(T product);
+
+        void Delete(T product);
 
         void Save();
 

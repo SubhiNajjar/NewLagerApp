@@ -14,14 +14,19 @@ namespace LagarAppE04.Helpers
             var records = JsonSerializer.Deserialize<List<T>>(jsonString);
 
             Clear();
-            WriteLine("Please Press Enter ");
-            foreach (var product in records)
+            WriteLine(".. This is a List for All ..");
+            //WriteLine("Product\tPrice\tManuFacturer");
+            foreach (var Items in records)
             {
-                Console.WriteLine(product);
+                WriteLine(Items);
             }
+            WriteLine("\nPlease Press Enter For Continue... ");
             ReadLine();
+            Clear();
             return records;
         }
+
+
         public static void SaveToJson<T>(string filePath, IEnumerable<T> records)
         {
             var jsonString = JsonSerializer.SerializeToUtf8Bytes(records);

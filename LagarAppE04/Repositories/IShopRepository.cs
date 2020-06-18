@@ -1,12 +1,12 @@
-﻿using System;
+﻿using LagarAppE04.ShopHelper;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace LagarAppE04.Repositories
 {
-    class IShopRepository
+    public interface IShopRepository : IRepository<Shop>
     {
-        // Coming Soon
 
     }
 }

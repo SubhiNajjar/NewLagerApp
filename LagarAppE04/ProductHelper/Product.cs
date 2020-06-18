@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LagarAppE04.ShopHelper;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,10 +10,12 @@ namespace LagarAppE04.ProductHelper
         //public string Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
+        public string ManuFacturer { get; set; }
+        //public List<Shop> Shops { get; set; } = new List<Shop>();
 
         public override string ToString()
         {
-            return Name + " " + "\t" + Price;
+            return Name + " " + "\t" + Price + "\t"+ ManuFacturer + " " ;
         }
 
 

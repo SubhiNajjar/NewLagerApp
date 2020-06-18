@@ -15,10 +15,14 @@ namespace LagarAppE04.Helpers
             Console.WriteLine("Please enter Price (,) : ");
             var price = decimal.Parse(Console.ReadLine());
 
+            Console.WriteLine("Please enter product ManuFacturer : ");
+            var manuFacturer = Console.ReadLine();
+
             Product product = new Product()
             {
                 Name = name,
-                Price = price
+                Price = price,
+                ManuFacturer = manuFacturer
             };
 
             return product;
